@@ -3,8 +3,8 @@ Vue.component('faq_accordion_1723701758', {
     <div>
       <section class="leading-relaxed max-w-screen-xl mt-12 mx-auto px-4 md:px-8 bg-white">
         <div class="space-y-3 text-center">
-          <h1 class="text-4xl text-gray-800 font-semibold pt-10">FAQ_TITLE_PLACEHOLDER_TEXT</h1>
-          <p class="text-gray-600 max-w-lg mx-auto text-lg">FAQ_SUBTITLE_PLACEHOLDER_TEXT</p>
+          <h1 class="text-4xl text-gray-800 font-semibold pt-10">Frequently Asked Questions</h1>
+          <p class="text-gray-600 max-w-lg mx-auto text-lg">Everything you need to know about our blockchain information discovery app</p>
         </div>
         <div class="mt-14 max-w-2xl mx-auto">
           <div v-for="(item, index) in faqs" :key="index" class="space-y-5 mt-5 overflow-hidden border-b border-gray-200 hover:bg-gray-50 cursor-pointer" @click="toggleFaq(index)">
@@ -30,24 +30,24 @@ Vue.component('faq_accordion_1723701758', {
       selectedFaq: null,
       faqs: [
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_1",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_1"
+          q: "What is this blockchain information discovery app?",
+          a: "Our app is a powerful tool designed to help users find and explore new blockchain information efficiently. It aggregates data from multiple sources to provide up-to-date insights on various blockchain networks, projects, and technologies."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_2",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_2"
+          q: "How does the app work?",
+          a: "The app uses advanced algorithms to scan and analyze blockchain data sources, including news outlets, social media, and on-chain activity. It then presents this information in an easy-to-understand format, allowing users to discover trending topics, new projects, and important developments in the blockchain space."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_3",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_3"
+          q: "Is this app suitable for beginners?",
+          a: "Absolutely! Our app is designed with both beginners and experienced users in mind. It offers intuitive navigation and explanations of complex concepts, making it easy for newcomers to learn about blockchain while also providing in-depth information for advanced users."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_4",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_4"
+          q: "Can I customize the type of blockchain information I receive?",
+          a: "Yes, you can! Our app allows you to set preferences for the types of blockchain information you're most interested in. Whether you're focused on specific cryptocurrencies, DeFi projects, or emerging blockchain technologies, you can tailor your feed to suit your needs."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_5",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_5"
+          q: "How often is the information updated?",
+          a: "Our app updates information in real-time, ensuring you always have access to the latest blockchain news and data. This includes live updates on price movements, breaking news, and significant on-chain events across various blockchain networks."
         }
       ]
     }
